@@ -7,6 +7,7 @@
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *L=(struct ListNode*)malloc(sizeof(struct ListNode)),*p=L,*ll;
     int flag=0;
+    // l1和l2均不为空
     while(l1&&l2){
         struct ListNode *l = (struct ListNode*)malloc(sizeof(struct ListNode));
         l->next = NULL;
@@ -21,6 +22,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
         p=p->next;
     }
     ll = l1==NULL?l2:l1;
+    // l1和l2的长度不等
     while(ll){
         struct ListNode *l = (struct ListNode*)malloc(sizeof(struct ListNode));
         l->next = NULL;
@@ -34,6 +36,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
         p->next=l;
         p=p->next;
     }
+    // l1和l2和最高位进位
     if(flag==1){
         struct ListNode *l = (struct ListNode*)malloc(sizeof(struct ListNode));
         l->next = NULL;
