@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	// solution for 191
     public int hammingWeight(int n){
         int res = 0;

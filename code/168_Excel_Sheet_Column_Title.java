@@ -5,7 +5,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
        // solution for 168
     public String convertToTitle(int n){

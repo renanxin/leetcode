@@ -5,7 +5,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
     // solution for 172
     public int trailingZeroes(int n){

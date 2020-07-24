@@ -5,7 +5,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
     // solutiopn for 187
     public List<String> findRepeatedDnaSequences(String s) {

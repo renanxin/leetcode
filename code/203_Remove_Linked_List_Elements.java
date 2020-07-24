@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	
    // solution for 203
     public ListNode removeElements(ListNode head,int val){

@@ -12,7 +12,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
     // solution for 188
     public int maxProfit(int k,int[] prices){

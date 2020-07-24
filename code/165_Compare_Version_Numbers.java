@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	// solution for 165
     public int compareVersion(String version1, String version2) {
         String[] split1 = version1.split("\\.");

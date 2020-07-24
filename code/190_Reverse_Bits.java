@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
     // solution for 190
     // you need treat n as an unsigned value

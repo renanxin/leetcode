@@ -7,7 +7,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
     // solution for 169
     public int majorityElement(int[] nums){

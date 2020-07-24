@@ -5,7 +5,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	// solution for 166
     public String fractionToDecimal(int numerator, int denominator) {
         if (numerator == 0) return "0";

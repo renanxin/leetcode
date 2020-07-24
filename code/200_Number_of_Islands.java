@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	
    // rows和cols分别代表着grid数组的行数和列数
    private int rows,cols;

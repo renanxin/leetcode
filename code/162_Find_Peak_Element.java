@@ -5,7 +5,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	// solution for 162
     public int findPeakElement(int[] nums){
         int len = nums.length;

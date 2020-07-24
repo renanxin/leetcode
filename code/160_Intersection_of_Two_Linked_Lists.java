@@ -5,7 +5,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
         public long getListNodeLen(ListNode head) {
         if (head == null) return 0;

@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
     // reverse an array from index i to j
     public void reverseArray(int[] nums,int i,int k){

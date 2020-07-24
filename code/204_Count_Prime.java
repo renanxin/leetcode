@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	
    // solution for 204
     public int countPrimes(int n){

@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	
    // solution for 206
     public ListNode reverseList(ListNode head) {

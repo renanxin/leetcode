@@ -7,7 +7,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	
    // solution for 205
     public boolean isIsomorphic(String s, String t) {

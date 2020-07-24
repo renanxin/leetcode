@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
     // solution for 171
     public int titleToNumber(String s){

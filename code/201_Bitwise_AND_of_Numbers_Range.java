@@ -7,7 +7,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
    // solution for 201
     public int rangeBitwiseAnd(int m, int n) {

@@ -5,7 +5,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
     // solution for 179
     public String largestNumber(int[] nums) {

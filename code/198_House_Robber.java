@@ -4,7 +4,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 
    // solution for 198
     public int rob(int[] nums){

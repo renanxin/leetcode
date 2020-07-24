@@ -11,7 +11,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	// solution_1 for 164
     public int maximumGap(int[] nums) {
         // 数组长度为1

@@ -5,7 +5,7 @@
 	
 */
 
-class MinStack {
+public class Solution {
 	// solution for 199
     public List<Integer> rightSideView(TreeNode root) {
         ArrayList<Integer> res = new ArrayList<>();
