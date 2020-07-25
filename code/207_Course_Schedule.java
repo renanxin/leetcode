@@ -6,7 +6,7 @@
 
 public class Solution {
 	
-   / solution for 207
+   // solution for 207
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> adjust = new ArrayList<>();
         for(int i=0;i<numCourses;++i)
