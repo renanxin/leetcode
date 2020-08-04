@@ -4,10 +4,7 @@
 	top方法大致与pop方法相似，不过不用移除最后一个元素
 */
 
-public class Solution {
-	
-
-   // solution for 225
+// solution for 225
     class MyStack {
 
         Queue<Integer> queue1;
@@ -56,4 +53,3 @@ public class Solution {
             return queue1.size()==0;
         }
     }
-}
