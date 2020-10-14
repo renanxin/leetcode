@@ -1,4 +1,3 @@
-// solution for 381
 class RandomizedCollection {
 
     // solution for 414
