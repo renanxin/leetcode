@@ -6,7 +6,6 @@ class Solution {
             sum2 += nums[i];
         int res = 0;
         while(res<nums.length){
-            System.out.println(sum1+"    "+sum2);
             if(sum1==sum2)
                 break;
             else{
