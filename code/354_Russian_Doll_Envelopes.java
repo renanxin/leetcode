@@ -51,4 +51,24 @@ class Solution{
         }
         return dp.size();
     }
+
+
+    // solution for 354
+    public int maxEnvelopes(int[][] envelopes) {
+        if(envelopes.length<=1)
+            return envelopes.length;
+        Arrays.sort(envelopes,(int[] a,int[] b)->{return a[0]!=b[0]?a[0]-b[0]:b[1]-a[1];});
+        int len=0;
+        int[] dp = new int[envelopes.length];
+        for(int[] num:envelopes){
+            int index = Arrays.binarySearch(dp,0,len,num[1]);
+            if(index<0)
+                index = -(index+1);
+            dp[index] = num[1];
+            if(len==index)
+                ++len;
+        }
+        return len;
+    }
+
 }
