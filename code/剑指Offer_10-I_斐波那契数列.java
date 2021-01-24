@@ -7,28 +7,19 @@ import java.util.*;
 
 class Solution{
 
-    // 07 重建二叉树
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
-        if(inorder.length==0)
-            return null;
-        Map<Integer, Integer> quickSearch = new HashMap<>();
-        for(int i=0;i<inorder.length;++i)
-            quickSearch.put(inorder[i],i);
-        return reBuildBinaryTree(preorder,quickSearch,0,preorder.length-1,0,preorder.length-1);
-    }
-
-    public TreeNode reBuildBinaryTree(int[] preOrder,Map<Integer,Integer> quickSearch,int begin1,int end1,
-                                      int begin2,int end2){
-        if(begin1>end1)
-            return null;
-        TreeNode root = new TreeNode(preOrder[begin1]);
-        if(begin1==end1){
-            return root;
+    // 10-1 斐波那契数列
+    public int fib(int n) {
+        int mod = 1000000007;
+        if(n<2)
+            return n;
+        int a1 = 0, a2 = 1;
+        for(int i=2;i<=n;++i){
+            int tmp = (a1+a2)%mod;
+            if(i%2==0)
+                a1 = tmp;
+            else
+                a2 = tmp;
         }
-        int index = quickSearch.get(preOrder[begin1]);
-        root.left = reBuildBinaryTree(preOrder,quickSearch,begin1+1,begin1+index-begin2,begin2,index-1);
-        root.right = reBuildBinaryTree(preOrder,quickSearch,begin1+index-begin2+1,end1,index+1,end2);
-        return root;
-
+        return n%2==0?a1:a2;
     }
 }
